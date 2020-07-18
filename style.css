@@ -1,0 +1,325 @@
+.login-body{
+    background:linear-gradient(to left top,#400082,#8a00d4,#e62a88,#d527b7);
+    background-repeat: no-repeat;
+    height:100vh;
+    text-align: center;
+    margin: 0;
+}
+.login_form{
+    background-color: #f2f2f2;
+    padding: 2vw;
+    width:22%;
+    margin:auto;
+}
+.input {
+    width: 80%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #959bf3;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  .input:focus {
+      border : 1px solid rgb(66, 78, 243);
+      outline: none;
+  }
+  .login_submit{
+      width:80%;
+      padding:12px 20px;
+      margin-top: 12px;
+      margin-bottom: 8px;
+      background-color: #8500ce;
+      outline:none;
+      border:none;
+      color:white;
+      cursor: pointer;
+      border-radius: 3px;
+  }
+
+  h1{
+      color:#fff;
+      font-size:5vw;
+      margin-bottom: 1rem;
+      margin-top: 3rem;
+      
+  }
+  h3{
+      color:white;
+      margin-bottom: 4rem;
+      font-family: sans-serif;
+  }
+  h2{
+      margin-top:0.5rem;
+      color:#8600cf;
+      font-family: sans-serif;
+  }
+
+
+.q_set{
+    background-color: #fff;
+    width:50%;
+    margin: auto;
+   border-radius: 5px;
+    margin-top: 5vw;
+}
+.next-btn {
+	box-shadow:inset 1px -2px 2px -50px #29bbff;
+	background:linear-gradient(to bottom, #117cd9 5%, #0828fa 100%);
+	background-color:#117cd9;
+	border-radius:13px;
+	border:4px solid #f4f4f7;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:12px 29px;
+	text-decoration:none;
+    text-shadow:0px 1px 0px #263666;
+    outline: none;
+    margin-top: 2vw;
+    
+}
+.next-btn:hover {
+	background:linear-gradient(to bottom, #0828fa 5%, #117cd9 100%);
+	background-color:#0828fa;
+}
+.next-btn:active {
+	position:relative;
+	top:1px;
+}
+.question{
+    text-align: left;
+    padding-top: 1vw;
+    line-height: 1.8rem;
+    padding-left: 3vw;
+    padding-bottom: 1vw;
+}
+.btn-div{
+    
+    padding-bottom: 2vw;
+    padding-right: 2vw;
+    margin:auto;
+}
+h4{
+    font-size: 1.2em;
+}
+.submit-btn{
+    box-shadow:inset 1px -2px 2px -50px #29bbff;
+	background:linear-gradient(to bottom, #117cd9 5%, #0828fa 100%);
+	background-color:#117cd9;
+	border-radius:13px;
+	border:4px solid #f4f4f7;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:12px 29px;
+	text-decoration:none;
+    text-shadow:0px 1px 0px #263666;
+    outline: none;
+    margin-top: 2vw;
+    margin-left: auto;
+}
+.submit-btn:hover {
+	background:linear-gradient(to bottom, #0828fa 5%, #117cd9 100%);
+	background-color:#0828fa;
+}
+.submit-btn:active {
+	position:relative;
+	top:1px;
+}
+.instruction{
+    background-color: #fff;
+    width:60%;
+    margin: auto;
+    margin-top:3vw;
+    margin-bottom: 1rem;
+    padding:3vw;
+}
+.instr{
+    text-align: left;
+    padding:0 2rem ;
+    line-height:2rem ;
+}
+li{
+    font-size: 1.5vw;
+}
+.previous-div{
+   text-align: left;
+   width:50%;
+   padding-left: 2vw;
+}
+a{
+    text-decoration: none;
+}
+.error { 
+    width: 80%;
+    margin: 8px 0; 
+    
+    border: 1px solid #a94442;  
+    color: #a94442;  
+    background: #f2dede;  
+    border-radius: 5px;  
+    text-align: center; 
+    display: inline-block;
+} 
+
+table, th, td {
+    border: 3px solid white;
+    border-collapse: collapse;
+    padding: 1.2vw;
+    
+  }
+  th{
+      background-color: transparent;
+    color:white;
+    font-size:1.8vw;
+  }
+  td{
+      background-color: transparent;
+      color:white;
+  }
+  table{
+      margin:auto;
+      width:60%;
+  }
+  .result-heading{
+      font-size: 3vw;
+      color:white;
+      margin-bottom: 6vw;
+  }
+  .logout-btn{
+	background-color:transparent;
+	border-radius:28px;
+	border:3px solid white;
+	display:inline-block;
+	cursor:pointer;
+	color:white;
+	font-family:Arial;
+	font-size:17px;
+	padding:1vw 3vw;
+	text-decoration:none;
+    text-shadow:0px 1px 0px #ffffff;
+    margin-top: 3vw;
+    outline: none;
+    margin-right:1rem;
+}
+.logout-btn:hover {
+    background-color:white;
+    color: #8600cf;
+    border-color: white;
+}
+.logout-btn:active {
+	position:relative;
+	top:1px;
+}
+.logout-link{
+    color:white;
+    font-size:1.5vw;
+    margin-left:1.8vw;
+}
+.logout-div{
+    margin-top: 2vw;
+    text-align: right;
+    padding-right:2vw;
+}
+.alt-reg{
+    margin-bottom:3rem;
+}
+
+@media only screen and (max-width: 600px) {
+.input {
+  width: 80%;
+  padding: 10px 16px;
+  margin: 4px 0;
+  display: inline-block;
+  border: 1px solid #959bf3;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+.login_form{
+  background-color: #f2f2f2;
+  padding: 0.5vw 1.5vw;
+  width:70%;
+  margin:auto;
+}
+.signin-heading{
+  font-size:0.12rem;
+  margin-bottom:2rem;
+}
+.h1-login{
+  font-size:1.5rem;
+}
+.alt-reg{
+  margin-bottom:1rem;
+  font-size:3px;
+}
+.instruction{
+    padding:1vw;
+    width:80%;
+}
+.instr{
+    padding:0 0.2rem;
+}
+.q_set{
+    width:80%;
+    padding:1rem;
+    margin-top:2.5rem;
+}
+.next-btn{
+    	padding:8px 20px;
+    	font-size:10px;
+}
+.level-head{
+    font-size:2rem;
+}
+table{
+    width:80%;
+    text-align:center;
+    padding:0;
+}
+th{
+    font-size:1rem;
+    
+}
+
+}
+.index-page{
+    background-image:linear-gradient(to left top,rgba(64, 0, 130,0.9),rgba(138, 0, 212,0.9),rgba(230, 42, 136,0.9),rgba(213, 39, 183,0.9))
+    ,url("images/background.png");
+    background-size: cover;
+   background-repeat: no-repeat;
+    height:100vh;
+    text-align: center;
+    margin: 0;
+}
+.index-div{
+    width:60%;
+    margin:auto;
+    padding-top: 12vw;
+    
+}
+.index-h2{
+    color:white;
+    font-size: 1.5rem;
+    font-family: 'Inter', sans-serif;
+}
+.index-heading{
+    font-family: 'Courgette', cursive;
+    color:#fff;
+    font-size:5vw;
+    margin-bottom: 1rem;
+    margin-top: 3rem;
+}
+.level-logout{
+    border:none;
+    background-color: transparent;
+    color:white;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
